@@ -1,0 +1,102 @@
+
+a.btn.btn_home:hover {
+    background-color: #0b354f;
+    color: #fff;
+    font-size: 16px;
+}
+a.btn.btn_home {
+    border: 1px solid #d5d5d5;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #0967df;
+    margin-top: 14px;
+    font-size: large;
+}
+.header {
+    background: url(../images/bg_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-blend-mode: multiply;
+    background-color: rgba(255, 255, 255, 0.37);
+    height: 800px;
+    margin-top: -120px;
+}
+a.navbar-brand {
+    width: 148px
+}
+.moon i {
+    color: #000000;
+    font-size: 19px;
+}
+
+.moon {
+    background-color: #ffffff;
+    border-radius: 35px;
+    padding: 7px 11px;
+    margin: 12px 29px;
+}
+/*.img-fluid {
+    color: #025add;
+    max-width: 100%;
+    height: auto;
+}*/
+ul.navbar.me-auto.mb-2.mb-lg-0 {
+    margin: 0px 59px;
+    list-style: none;
+    font-weight: 630;
+    color: white;
+}
+ul.navbar.me-auto.mb-2.mb-lg-0 :hover {
+    color: aqua;
+}
+a.nav-link.active {
+    padding: 25px;
+}
+a.nav-link {
+    padding: 25px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+    clear: both;
+    font-weight: 400;
+    color: var(--bs-dropdown-link-color);
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+h2 {
+    margin-top: 193px;
+    font-size: 44px;
+    color: white;
+}
+
+.sticky {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+.sticky ul li a {
+    color: black;
+}
+.sticky .moon{
+    background-color: beige;
+}
+i.fa-solid.fa-circle-check {
+    padding-right: 12px;
+    color: #00000063;
+}
+.card.h-100:hover i {
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+.card.h-100:hover img {
+    transform: scale3d(1.5, 1.5, 1.5);
+}
